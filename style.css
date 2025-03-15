@@ -1,0 +1,13 @@
+/* 「Videos」タブ、 「Short videos」タブ、そして「All」タブを最初から非表示にする */
+a[href*="tbm=vid"],
+a:has(span:contains("Videos")),
+a:has(span:contains("Short videos")),
+a:has(span:contains("All")) {
+  display: none !important;
+}
+
+/* Webタブが選択状態になるように設定 */
+a[href*="tbm=isch"],
+a[href*="tbm=nws"] {
+  display: block !important;
+}
