@@ -1,7 +1,12 @@
 {
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "google-video-tab-hider@example.com"
+        }
+    },
     "manifest_version": 3,
     "name": "Google Video Tab Hider",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Google検索の動画タブを非表示にする拡張機能",
     "permissions": ["scripting"],
     "host_permissions": ["https://www.google.com/search*"],

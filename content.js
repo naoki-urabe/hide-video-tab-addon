@@ -9,7 +9,14 @@ function hideTabs() {
         text.includes("Shopping") ||
         text.includes("News") ||  // News タブのテキストを含む
         text.includes("Flights") ||
-        text.includes("Finance")
+        text.includes("Finance") ||
+        text.includes("動画") ||
+        text.includes("ショート動画") ||
+        text.includes("すべて") ||
+        text.includes("ショッピング") ||
+        text.includes("ニュース") ||  // News タブのテキストを含む
+        text.includes("フライト") ||
+        text.includes("金融")
       ) {
         tab.style.display = "none";
       }
